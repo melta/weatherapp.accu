@@ -11,7 +11,6 @@ setup(
         'weatherapp.provider': 'accu=weatherapp.accu.provider:AccuProvider',
     },
     install_requires=[
-        'requests',
         'bs4'
     ]
 )

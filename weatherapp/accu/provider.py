@@ -1,12 +1,12 @@
 import re
 
 from bs4 import BeautifulSoup
-
-from weatherapp.core import config
 from weatherapp.core.abstract import WeatherProvider
 
+from weatherapp.accu import config
 
-class AccuWeatherProvider(WeatherProvider):
+
+class AccuProvider(WeatherProvider):
 
     """ Weather provider for AccuWeather site.
     """
